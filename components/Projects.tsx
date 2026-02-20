@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Github, ExternalLink, X } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import React from "react";
 import {
   SiLaravel,
   SiNextdotjs,
@@ -15,7 +16,7 @@ import {
 
 /* ================= DATA ================= */
 
-const techIcons: Record<string, JSX.Element> = {
+const techIcons: Record<string, React.ReactNode> = {
   Laravel: <SiLaravel className="text-red-500" />,
   "Next.js": <SiNextdotjs />,
   MySQL: <SiMysql className="text-blue-500" />,
