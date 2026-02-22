@@ -8,73 +8,76 @@ const content = {
     title: "Tentang Saya",
     p1: (
       <>
-        Saya adalah <strong className="text-white">Web Developer</strong> sekaligus
-        mahasiswa semester akhir dengan pengalaman sekitar{" "}
-        <strong className="text-white">2 tahun</strong> dalam pengembangan aplikasi
-        web modern, baik di sisi <strong className="text-white">Frontend</strong>{" "}
-        maupun <strong className="text-white">Backend</strong>.
+        Saya adalah <strong className="text-white">mahasiswa semester akhir</strong>{" "}
+        yang memiliki ketertarikan kuat pada pengembangan aplikasi web, dengan
+        pengalaman mengerjakan berbagai project pengembangan selama masa studi.
       </>
     ),
     p2: (
       <>
-        Selama perjalanan tersebut, saya terbiasa mengerjakan berbagai jenis
-        project. Mulai dari kebutuhan akademik, project organisasi, hingga sistem
-        internal. Dengan fokus pada performa aplikasi, struktur kode yang rapi,
-        serta kemudahan pengelolaan dan pengembangan jangka panjang.
+        Selama proses belajar tersebut, saya terbiasa mengerjakan project
+        akademik, organisasi, serta latihan pengembangan sistem, yang membantu
+        saya memahami alur kerja frontend dan backend dalam satu aplikasi. Saya
+        terbiasa bekerja dengan struktur kode yang rapi, serta terus belajar
+        menerapkan praktik pengembangan yang mudah dipelihara.
       </>
     ),
     p3: (
       <>
-        Di sisi frontend, saya fokus membangun antarmuka yang responsif dan
-        intuitif menggunakan <strong className="text-white">Next.js</strong>,{" "}
+        Di sisi frontend, saya membangun antarmuka web yang responsif dan
+        user-friendly menggunakan{" "}
+        <strong className="text-white">Next.js</strong>,{" "}
         <strong className="text-white">React</strong>, dan{" "}
         <strong className="text-white">Tailwind CSS</strong>. Sementara di sisi
-        backend, saya berpengalaman dalam merancang REST API, autentikasi, serta
-        pengelolaan database menggunakan{" "}
+        backend, saya mempelajari dan menerapkan pembuatan REST API,
+        autentikasi, serta pengelolaan database menggunakan{" "}
         <strong className="text-white">Laravel</strong> dan{" "}
         <strong className="text-white">MySQL</strong>.
       </>
     ),
     highlights: [
-      { label: "Pengalaman", value: "2+ Tahun" },
-      { label: "Spesialisasi", value: "Pengembang Web" },
-      { label: "Status", value: "Mahasiswa Akhir" },
+      { label: "Fokus", value: "Web Development" },
+      { label: "Pendekatan", value: "Project-Based Learning" },
+      { label: "Status", value: "Mahasiswa Semester Akhir" },
     ],
   },
+
   en: {
     title: "About Me",
     p1: (
       <>
-        I am a <strong className="text-white">Web Developer</strong> and final year
-        student with approximately <strong className="text-white">2 years</strong>{" "}
-        of experience in developing modern web applications, covering both{" "}
-        <strong className="text-white">Frontend</strong> and{" "}
-        <strong className="text-white">Backend</strong>.
+        I am a <strong className="text-white">final-year university student</strong>{" "}
+        with a strong interest in web application development, and hands-on
+        experience working on various development projects throughout my
+        academic journey.
       </>
     ),
     p2: (
       <>
-        Throughout my journey, I have worked on various types of projects. Ranging
-        from academic projects and organizational systems to internal
-        applications. Focusing on performance, clean code structure, and
-        long-term maintainability.
+        During this learning process, I have worked on academic projects,
+        organizational projects, and system development exercises, which helped
+        me understand how frontend and backend components integrate within a
+        single application. I am accustomed to writing clean and well-structured
+        code, while continuously learning to apply maintainable development
+        practices.
       </>
     ),
     p3: (
       <>
-        On the frontend side, I build responsive and intuitive user interfaces
-        using <strong className="text-white">Next.js</strong>,{" "}
+        On the frontend side, I build responsive and user-friendly web
+        interfaces using{" "}
+        <strong className="text-white">Next.js</strong>,{" "}
         <strong className="text-white">React</strong>, and{" "}
-        <strong className="text-white">Tailwind CSS</strong>. On the backend side,
-        I have experience designing REST APIs, authentication systems, and
-        database management using{" "}
+        <strong className="text-white">Tailwind CSS</strong>. On the backend
+        side, I have learned and applied REST API development,
+        authentication, and database management using{" "}
         <strong className="text-white">Laravel</strong> and{" "}
         <strong className="text-white">MySQL</strong>.
       </>
     ),
     highlights: [
-      { label: "Experience", value: "2+ Years" },
-      { label: "Specialization", value: "Web Development" },
+      { label: "Focus", value: "Web Development" },
+      { label: "Approach", value: "Project-Based Learning" },
       { label: "Status", value: "Final Year Student" },
     ],
   },

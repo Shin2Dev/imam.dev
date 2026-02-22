@@ -65,7 +65,7 @@ const skillGroups = [
 const content = {
   id: {
     title: "Skills & Teknologi",
-    desc: "Teknologi dan tools yang saya gunakan untuk membangun aplikasi web modern, scalable, dan siap digunakan di lingkungan profesional.",
+    desc: "Teknologi dan tools yang saya gunakan dalam proses belajar dan pengembangan aplikasi web, baik di sisi frontend maupun backend.",
     groups: {
       frontend: "Frontend Development",
       backend: "Backend Development",
@@ -75,7 +75,7 @@ const content = {
   },
   en: {
     title: "Skills & Technologies",
-    desc: "Technologies and tools that I use to build modern, scalable, and production-ready web applications.",
+    desc: "Technologies and tools that I use during my learning process and in developing web applications, covering both frontend and backend aspects.",
     groups: {
       frontend: "Frontend Development",
       backend: "Backend Development",
@@ -84,7 +84,6 @@ const content = {
     },
   },
 };
-
 export default function Skills() {
   const { lang } = useLanguage();
   const t = content[lang];

@@ -7,9 +7,9 @@ import { useLanguage } from "@/context/LanguageContext";
 const content = {
   en: {
     badge: "WEB DEVELOPER",
-    title1: "Final Year Student",
-    title2: "with 2+ Years Experience",
-    desc: "Web Developer with 2+ years experience building modern, performant, and scalable web applications using Laravel, Next.js, Tailwind CSS, and clean architecture.",
+    title1: "Final-Year Student",
+    title2: "& Web Developer",
+    desc: "Hands-on experience in web application development through project-based work during academic studies, with a focus on frontend and backend development using Laravel, Next.js, and Tailwind CSS. Interested in writing clean code, building responsive user interfaces, and following modern development workflows.",
     campus: "Final Year Student at",
     ctaPrimary: "View Projects",
     ctaSecondary: "Contact Me",
@@ -17,8 +17,8 @@ const content = {
   id: {
     badge: "WEB DEVELOPER",
     title1: "Mahasiswa Semester Akhir",
-    title2: "dengan Pengalaman 2+ Tahun",
-    desc: "Web Developer dengan pengalaman lebih dari 2 tahun dalam membangun aplikasi web modern, scalable, dan performant menggunakan Laravel, Next.js, Tailwind CSS, dan arsitektur frontend modern.",
+    title2: "& Web Developer",
+	desc: "Berpengalaman mengerjakan project pengembangan aplikasi web selama masa studi, dengan fokus pada frontend & backend menggunakan Laravel, Next.js, dan Tailwind CSS. Tertarik pada clean code, UI responsif, dan workflow pengembangan modern.",
     campus: "Mahasiswa Semester Akhir di",
     ctaPrimary: "Lihat Proyek",
     ctaSecondary: "Hubungi Saya",

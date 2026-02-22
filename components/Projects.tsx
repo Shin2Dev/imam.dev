@@ -27,7 +27,7 @@ const techIcons: Record<string, React.ReactNode> = {
 const translations = {
   id: {
     title: "Projects",
-    subtitle: "Project yang saya kerjakan selama ±2 tahun terakhir",
+    subtitle: "Project pengembangan yang saya kerjakan selama masa studi",
     viewDetail: "Lihat Detail →",
     role: "Role",
     github: "GitHub",
@@ -35,7 +35,7 @@ const translations = {
   },
   en: {
     title: "Projects",
-    subtitle: "Projects I have worked on over the past ±2 years",
+    subtitle: "Development projects I worked on during my academic journey",
     viewDetail: "View Details →",
     role: "Role",
     github: "GitHub",
@@ -47,15 +47,15 @@ const projects = [
   {
     title: {
       id: "E-Voting Pemilihan Ketua Umum UKM Olah Raga",
-      en: "E-Voting System for Sports Organization Chairman Election",
+      en: "E-Voting System for UKM Olah Raga Chairman Election",
     },
     desc: {
       id: "Sistem e-voting untuk pemilihan ketua umum UKM dengan autentikasi dan manajemen data.",
-      en: "An e-voting system for electing the chairman of a sports organization, featuring authentication and data management.",
+      en: "An e-voting system for electing the chairman of UKM Olah Raga, featuring authentication and data management.",
     },
     label: {
-      id: "Project Organisasi / Real Project",
-      en: "Organization Project / Real Project",
+      id: "Project Organisasi",
+      en: "Organization Project",
     },
     images: [
       "/projects/ukm-or-1.png",
@@ -71,17 +71,17 @@ const projects = [
   },
   {
     title: {
-      id: "Sistem Informasi Tagihan Telepon (MSJTagihanTlp)",
-      en: "Telephone Billing Information System (MSJTagihanTlp)",
-    },
-    desc: {
-      id: "Sistem internal perusahaan untuk pengelolaan dan monitoring tagihan telepon.",
-      en: "An internal company system for managing and monitoring telephone billing.",
-    },
-    label: {
-      id: "Project Perusahaan / Real Project",
-      en: "Company Project / Real Project",
-    },
+		id: "Sistem Informasi Tagihan Telepon (MSJTagihanTlp)",
+		en: "Telephone Billing Information System (MSJTagihanTlp)",
+	  },
+	  desc: {
+		id: "Project pengembangan sistem informasi untuk membantu proses pengelolaan dan monitoring tagihan telepon, dikerjakan sebagai bagian dari pembelajaran selama program magang dan pengembangan sistem internal.",
+		en: "A system development project designed to support telephone billing management and monitoring, developed as part of an internship learning process within an internal system project.",
+	  },
+	  label: {
+		id: "Project Pengembangan Sistem (Project-Based)",
+		en: "System Development Project (Project-Based)",
+	 },
     images: [
       "/projects/tagihantlp-1.png",
       "/projects/tagihantlp-2.png",
